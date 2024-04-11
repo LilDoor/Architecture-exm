@@ -1,4 +1,5 @@
-﻿namespace GameArchitecture {
+﻿namespace Game_Architecture.GameArchitecture
+{
     public class Character
     {
         public string Name { get; set; }
@@ -16,22 +17,22 @@
     }
     public class Appearance
     {
-        public string ?HairColor { get; set; }
-        public string ?EyeColor { get; set; }
-        public string ?ArmorStyle { get; set; }
+        public string? HairColor { get; set; }
+        public string? EyeColor { get; set; }
+        public string? ArmorStyle { get; set; }
     }
 
     public class Ability
     {
         public string Name { get; set; }
-        public string ?Description { get; set; }
+        public string? Description { get; set; }
         public int Power { get; set; }
     }
 
     public class Equipment
     {
         public string Name { get; set; }
-        public string ?Type { get; set; }
+        public string? Type { get; set; }
         public int Armor { get; set; }
     }
 
